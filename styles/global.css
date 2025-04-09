@@ -1,0 +1,38 @@
+:root {
+  --black: #0a0a0a;
+  --white: #ffffff;
+  --blue: #3066be;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+.primary-button {
+  border: none;
+  outline: 0;
+  padding: 10px 30px;
+  border-radius: 50px;
+  background-color: var(--white);
+  color: var(--black);
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.primary-button:hover {
+  background-color: var(--blue);
+  color: var(--white);
+}
+
+.section-label {
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: var(--black);
+  background-color: var(--light-gray);
+  padding: 20px;
+  border-radius: 8px;
+}

@@ -1,0 +1,68 @@
+@media screen and (max-width: 768px) {
+  .header .logo img {
+    width: 100px;
+    height: auto;
+  }
+
+  .header .navbar .nav-links {
+    display: none;
+  }
+
+  .main-section .main-content .main-content-data .main-title {
+    font-size: 2rem;
+    width: 100%;
+  }
+
+  .main-section .main-content .main-content-data .main-description {
+    font-size: 1rem;
+    padding: 0 1rem;
+  }
+
+  .main-section .main-content .main-content-data .main-section-button {
+    display: block;
+    width: 100%;
+  }
+
+  .main-section .main-content .main-content-data .main-section-button button {
+    width: 100%;
+  }
+
+  .main-logo {
+    width: 150px;
+  }
+
+  .about-section .section-title {
+    font-size: 35px;
+  }
+
+  .about-section .about-content {
+    flex-direction: column;
+    margin-top: 50px;
+  }
+
+  .about-section .about-content .about-card {
+    max-width: 100%;
+  }
+
+  .our-services-section .section-title {
+    font-size: 35px;
+  }
+
+  .our-process-section .section-title {
+    font-size: 35px;
+  }
+
+  .our-services-section .services-section-wrapper {
+    flex-direction: column;
+  }
+
+  .our-process-section .process-section-wrapper .process-cards-wrapper {
+    flex-wrap: wrap;
+    margin-top: 50px;
+  }
+
+  footer .footer-wrapper,
+  footer .footer-right {
+    flex-direction: column;
+  }
+}
